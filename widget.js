@@ -26,7 +26,7 @@ function discordAPI(){
 
 
 
-      nameHeader.children[0].innerHTML = serverName;
+      //nameHeader.children[0].innerHTML = "Discord";
 
 
       function channelsFill(){
@@ -106,7 +106,7 @@ function discordAPI(){
         }
       }
 
-      channelsFill();
+      //channelsFill();
       usersFill();
     })
   })

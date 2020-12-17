@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhzg.ttf) format('truetype');
-}
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD-w.ttf) format('truetype');
-}
 * {
   box-sizing: border-box;
 }
@@ -18,8 +6,8 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background: #111;
-  font-family: 'Montserrat', sans-serif;
+  background: #b6b6b6;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .wrap {
   height: 100%;
@@ -31,62 +19,6 @@ body {
           flex-flow: column;
   color: #fff;
 }
-.name--header {
-  height: 10%;
-  width: 100%;
-  background: hsl(190, 50%, 45%);
-  font-size: 200%;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-  color: #fff;
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-align: center;
-          align-items: center;
-  padding: 2rem 1rem ;
-  border-bottom: 0.3rem solid #fff;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  -webkit-box-pack: justify;
-          justify-content: space-between;
-}
-.name--header .name {
-  font-weight: 500;
-}
-.name--header .discord {
-  font-size: 50%;
-}
-.name--header .discord a {
-  color: white;
-  text-decoration: none;
-  outline: none;
-}
-.channels {
-  margin: 1rem;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-  display: block;
-}
-.channels--header {
-  font-size: 150%;
-  font-weight: 500;
-  color: #fff;
-  padding: 1rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(hsl(190, 50%, 50%)), to(#60ffff));
-  background: linear-gradient(to top, hsl(190, 50%, 50%) 0%, #60ffff 100%);
-  border-top-left-radius: 0.3rem;
-  border-top-right-radius: 0.3rem;
-}
-.channels--body {
-  background: #222;
-  margin: 0;
-  padding: 1rem;
-  border-bottom-left-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
-}
-.channel--name {
-  margin: 0.3rem 0;
-  padding: 0.2rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, transparent), color-stop(95%, #fff));
-  background: linear-gradient(to bottom, transparent 95%, #fff 95%);
-}
 .users {
   margin: 1rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
@@ -96,11 +28,11 @@ body {
           flex-direction: column;
 }
 .users--header {
-  font-size: 150%;
+  font-size: 100%;
   font-weight: 500;
-  background: -webkit-gradient(linear, left bottom, left top, from(hsl(150, 50%, 50%)), to(#60ffbf));
-  background: linear-gradient(to top, hsl(150, 50%, 50%) 0%, #60ffbf 100%);
-  color: #fff;
+  background: -webkit-gradient(linear, left top, left bottom, from(hsl(50, 100%, 50%)), to(#464746));
+  background: linear-gradient(to bottom, hsl(50, 100%, 50%) 80%, #464746 100%);
+  color: #000;
   padding: 1rem;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
@@ -125,7 +57,7 @@ body {
           flex-flow: row wrap;
   -webkit-box-align: center;
           align-items: center;
-  font-size: 110%;
+  font-size: 90%;
   margin: 0.5rem 0;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(95%, transparent), color-stop(95%, #111));
   background: linear-gradient(to bottom, transparent 95%, #111 95%);
