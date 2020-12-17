@@ -8,7 +8,7 @@ var userBody = document.querySelector('.users--body');
 function discordAPI(){
   var init = {
     method: 'GET',
-    mode: 'no-cors',
+    mode: 'cors',
     cache: 'reload'
   }
   fetch('https://discordapp.com/api/guilds/321180454499647488/widget.json', init).then(function(response){
